@@ -19,7 +19,7 @@ int main()
 		while (temp < m) {
 			float x = distribution(generator);
 			float y = distribution(generator);
-			float r = x * x + y * y; 
+			float r = x * x + y * y;
 
 			if (r <= 1) {
 				count++;
@@ -41,7 +41,8 @@ int main()
 	}
 	clock_t cpu_stop = clock();
 	std::cout << "Approximate pi calculated on CPU is: " << pi << " and calculation took " << (double)(cpu_stop - cpu_start) / CLOCKS_PER_SEC << std::endl;
-
+	int age;
+	cin >> age;
 
 
 }
