@@ -1,0 +1,7 @@
+Pi_estimation_gpu/Debug
+Pi_estimation_gpu/Pi_estimation_gpu.sln
+Pi_estimation_gpu/.vs
+Pi_estimation_gpu/Pi_estimation_cpu/Debug
+Pi_estimation_gpu/Pi_estimation_cpu/Pi_estimation_gpu.vcxproj.filters
+Pi_estimation_gpu/Pi_estimation_cpu/Pi_estimation_gpu.vcxproj
+Pi_estimation_gpu/Pi_estimation_cpu/Pi_estimation_gpu.vcxproj.user
