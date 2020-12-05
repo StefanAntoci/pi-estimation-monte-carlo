@@ -6,7 +6,7 @@
 using namespace std;
 int main()
 {
-	unsigned int n = 512 * 512 * 128;
+	unsigned int n = 16777216;
 	float pi;
 	//  serial verion
 	clock_t cpu_start = clock();
@@ -22,7 +22,7 @@ int main()
 			float r = x * x + y * y;
 
 			if (r <= 1) {
-				count++;
+				count++; 
 			}
 			temp++;
 		}*/
